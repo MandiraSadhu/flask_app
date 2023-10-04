@@ -6,7 +6,6 @@ from flask_pymongo import PyMongo
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token,get_jwt_identity
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-from flask_login import UserMixin, LoginManager, login_user, login_required, logout_user, current_user
 from bson import ObjectId
 
 uri = "mongodb+srv://mandirasadhu:K24wKc8lmDzJ6EBT@cluster0.y5expcz.mongodb.net/Users_data?retryWrites=true&w=majority"
